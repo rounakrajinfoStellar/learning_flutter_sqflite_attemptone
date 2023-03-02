@@ -55,6 +55,7 @@ class DatabaseHelper{
     Database? db = await instance.database;
     return await db!.query(dbTable);
     }
+    //I/flutter ( 8278): [{id: 1, name: Rounak Raj}, {id: 2, name: raj}]
 
     //update method
 
